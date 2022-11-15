@@ -121,7 +121,9 @@ Once you browse to www.whatismyipaddress.com you can observe the personal IP Add
 
 
 <p>
-<img src="https://i.imgur.com/WwztYA0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YIxsr5d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/ecOUFpM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
