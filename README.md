@@ -52,6 +52,8 @@ Create Lot Analytics Workspace
       
       b. Click on the VM tab to connect your law to your VM
 
+Section 3
+
 Setting up Microsoft Sentinel 
 
 8. In Microsoft sentinel connect your law
