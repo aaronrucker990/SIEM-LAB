@@ -63,7 +63,7 @@ Setting up Microsoft Sentinel
 10. In your VM go to the start menu and type in Event Viewer (you can see the failed attempts)
 11. Turn off firewall used cmd “wf.msc” 
 
-12. Download custom security log exporter https://github.com/joshmadakor1/Sentinel-Lab 
+12. Download custom security log exporter https://github.com/aaronrucker990/SIEM-LAB/blob/main/_LOG_EXPORTER.rtf
 
       a. Paste in Powershell ISE
       
