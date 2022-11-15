@@ -107,7 +107,7 @@ FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitud
 <h2>Visual 1</h2>
 
 <p>
-<img src="https://i.imgur.com/924SVlu.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qrASvaA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
