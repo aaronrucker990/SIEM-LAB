@@ -104,7 +104,7 @@ FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitud
 <h1>Visual Deployment of Operations</h1>
 
 
-<h2>Visual 1</h2>
+<h2>Operation 1</h2>
 
 <p>
 <img src="https://i.imgur.com/qrASvaA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -117,7 +117,7 @@ Once you browse to www.whatismyipaddress.com you can observe the personal IP Add
 <br />
 
 
-<h2>Visual 2</h2>
+<h2>Operation 2</h2>
 
 
 <p>
@@ -134,7 +134,7 @@ Note : If you create a Virtual Machine in Azure it will automatically create you
 </p>
 <br />
 
-<h2>Visual 3</h2>
+<h2>Operation 3</h2>
 
 
 <p>
@@ -155,7 +155,7 @@ Now when you remote into your Virtual Machine, please take into account that you
 <br />
 
 
-<h2>Visual 4</h2>
+<h2>Operation 4</h2>
 
 <p>
 <img src="https://i.imgur.com/qj4IPRc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
