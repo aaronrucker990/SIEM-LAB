@@ -172,5 +172,5 @@ In this operation where I setup Microsoft Sentinel (SIEM) and connected it to a 
 </p>
 <br />
 
-<img src="https://i.imgur.com/nxmZQI5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
