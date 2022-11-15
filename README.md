@@ -169,7 +169,7 @@ Now when you remote into your Virtual Machine, please take into account that you
 </p>
 <p>
 
-In this demo where I setup Microsoft Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. As demonsrated you can see the live attacks (RDP Brute Force) from all around the world. As seen the custom PowerShell script was used to look up the attackers Geolocation information and plot it on an Microsoft Sentinel Map!<br 
+In this demo where I setup Microsoft Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. As demonsrated you can see the live attacks (RDP Brute Force) from all around the world. As seen the custom PowerShell script was used to look up the attackers Geolocation information and plot it on an Microsoft Sentinel Map!
 
 </p>
 <br />
