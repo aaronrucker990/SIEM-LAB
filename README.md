@@ -138,6 +138,7 @@ Note : If you create a Virtual Machine in Azure it will automatically create you
 
 
 <p>
+	
 <img src= "https://i.imgur.com/if1giu3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src= "https://i.imgur.com/0SHQYlh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -145,6 +146,7 @@ Note : If you create a Virtual Machine in Azure it will automatically create you
 <img src= "https://imgur.com/a/McDR2pI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 	
 <img src= "https://i.imgur.com/SNzChz2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>	
+	
 </p>
 <p>
     
