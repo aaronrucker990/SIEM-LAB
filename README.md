@@ -23,7 +23,7 @@ Operation 1
 Generating your Virtual Machine within Microsoft Azure
 
 1. Create a text file or note pad to keep track of your information.
-2. Create a Virtual Machine (You can create a Resource Group when creating your vm).
+2. Create a Virtual Machine (You can create a Resource Group when creating your VM).
 3. Create Virtual Machine in a country (try your country or a country close, so your vm isn’t too slow).
 
 4. When creating vm before you are completely finished, got to networking.
