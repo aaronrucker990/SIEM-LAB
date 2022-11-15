@@ -6,7 +6,7 @@
 
 The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.<br />
 
-<h2>Environments and Technologies Used</h2>
+<h2>Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
