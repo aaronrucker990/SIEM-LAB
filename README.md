@@ -29,7 +29,9 @@ Generating your Virtual Machine within Microsoft Azure
 4. When creating vm before you are completely finished, got to networking.
 
    a. Find Nic (Network Security Group) then you will create your own firewall.
+   
    b. Click advanced option create new. Remove the default rule them add your own.
+   
    c. Destination port for the rule will be *. The priority will be 100. 
 
 Section 2
@@ -39,11 +41,15 @@ Create Lot Analytics Workspace
 5. When creating Law make sure to use same RG 
 
 6. Head over to Microsoft Defender For Cloud to enable the abilty to gather logs 
+
       a. Enable in environment settings and disable SQL severs
+      
       b. Tap Data collection underneath defender plan where you enabled settings, then click All Events. 
       
 7. Connect log analytics workspace to vm
+
       a. Click on your Law, below it will be an option that says vm
+      
       b. Click on the VM tab to connect your law to your VM
 
 Setting up Microsoft Sentinel 
@@ -78,15 +84,16 @@ Setting up Geo Map
 
 18. In Microsoft Defender for cloud click on Workbooks 
 19. Edit workbooks and add query 
+
 20. Type command to find logs
+
        a. 
+       
 FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitude_CF, longitude_CF, country_CF, label_CF, destinationhost_CF
 | where destinationhost_CF != "samplehost"
 | where sourcehost_CF !=
 
 19. Once you have your log you can now pin point with your geo map!
-
-
 
 <h1>Observing Visual Configurations</h1>
 
