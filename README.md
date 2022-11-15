@@ -101,7 +101,7 @@ FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitud
 
 19. Once you have your log you can now pin point with your geo map!
 
-<h1>Observing Visual Configurations</h1>
+<h1>Visual Deployment of Operations</h1>
 
 
 <h2>Visual 1</h2>
