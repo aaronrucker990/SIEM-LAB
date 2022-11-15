@@ -36,9 +36,9 @@ Generating your Virtual Machine within Microsoft Azure
 
 Operation 2
 
-Create Lot Analytics Workspace
+Create Log Analytics Workspace
 
-5. When creating Law make sure to use same RG 
+5. When creating LAW (Log Analytics Workspace0 make sure to use same RG (Resource Group)
 
 6. Head over to Microsoft Defender For Cloud to enable the abilty to gather logs 
 
@@ -46,9 +46,9 @@ Create Lot Analytics Workspace
       
       b. Tap Data collection underneath defender plan where you enabled settings, then click All Events. 
       
-7. Connect log analytics workspace to vm
+7. Connect log analytics workspace to VM (Virtual Machine)
 
-      a. Click on your Law, below it will be an option that says vm
+      a. Click on your Law, below it will be an option that says VM
       
       b. Click on the VM tab to connect your law to your VM
 
