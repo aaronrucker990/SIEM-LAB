@@ -81,6 +81,8 @@ Sign up with https://ipgeolocation.io/ to get API to use for code.
       b. Highlight longitude then save exactration of raw data (check longitude and latitude to ensure logs are correct. If they are off modify and highlight to train proper algorithm)
       
       c. Start breaking key names : username, state, destination source and saving exaction
+      
+Section 4
 
 Setting up Geo Map
 
