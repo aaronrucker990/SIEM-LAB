@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/hx4TXLv.jpg" height="80%" width="80%" alt="VPN logo"/>
 </p>    
     
-<h1>Configuring and Observing a VPN within a Virtual Machine</h1>
+<h1>Failed RDP to IP Geolocation Information</h1>
 
 This tutorial outlines the implementaion of configuring and observing a VPN, within a Virtual Machine.<br />
 
