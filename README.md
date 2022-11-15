@@ -18,9 +18,9 @@ The script is used in this demo where I setup Microsoft Sentinel (SIEM) and conn
 
 - Windows 10 (21H2)
 
-<h2>Description of Detailed Steps</h2>
+<h2>High-Level Deployment of Operations</h2>
 
-Section 1
+Operation 1
 
 Generating your Virtual Machine within Microsoft Azure
 
@@ -36,7 +36,7 @@ Generating your Virtual Machine within Microsoft Azure
    
    c. Destination port for the rule will be *. The priority will be 100. 
 
-Section 2
+Operation 2
 
 Create Lot Analytics Workspace
 
@@ -54,7 +54,7 @@ Create Lot Analytics Workspace
       
       b. Click on the VM tab to connect your law to your VM
 
-Section 3
+Operation 3
 
 Setting up Microsoft Sentinel 
 
@@ -84,7 +84,7 @@ Sign up with https://ipgeolocation.io/ to get API to use for code.
       
       c. Start breaking key names : username, state, destination source and saving exaction
       
-Section 4
+operation 4
 
 Setting up Geo Map
 
