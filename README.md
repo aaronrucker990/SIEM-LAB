@@ -125,9 +125,7 @@ As demonstrated in this visual you just want to make sure you are setting up you
 </p>
 <p>
 
-You now want to create our Windows 10, Virtual Machine. 
-
-Note : If you create a Virtual Machine in Azure it will automatically create your Resouce Group, as long as you click new Resource Group when creating your virtual Machine. 
+We are still setting up the basics with our virtual machine, turning it into our Honey Pot, as demonstatted in the visual. What is now being implented is the merging of our logs to our vm, to keep track of our Failed Brute Force attempts in our event logger. 
 
 </p>
 <br />
