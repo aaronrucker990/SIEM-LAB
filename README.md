@@ -22,17 +22,17 @@ Operation 1
 
 Generating your Virtual Machine within Microsoft Azure
 
-1. Create a text file or note pad to keep track of your information.
+1. Create a text file or note pad to keep track of your information
 2. Create a Virtual Machine (You can create a Resource Group when creating your vm)
 3. Create Virtual Machine in a country (try your country or a country close, so your vm isn’t too slow)
 
-4. When creating vm before you are completely finished, got to networking.
+4. When creating vm before you are completely finished, got to networking
 
-   a. Find Nic (Network Security Group) then you will create your own firewall.
+   a. Find Nic (Network Security Group) then you will create your own firewall
    
-   b. Click advanced option create new. Remove the default rule them add your own.
+   b. Click advanced option create new. Remove the default rule them add your own
    
-   c. Destination port for the rule will be *. The priority will be 100. 
+   c. Destination port for the rule will be *. The priority will be 100
 
 Operation 2
 
@@ -67,7 +67,7 @@ Setting up Microsoft Sentinel
       
       b. Click on the VM tab to connect your law to your VM
       
-Sign up with https://ipgeolocation.io/ to get API to use for code. 
+Sign up with https://ipgeolocation.io/ to get API to use for code 
 
 13. Add custom log to law 
 14. Find logs from desktop and find logs from windows 
@@ -97,7 +97,7 @@ FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitud
 | where destinationhost_CF != "samplehost"
 | where sourcehost_CF !=
 
-19. Once you have your log you can now pin point with your geo map!
+19. Once you have your log you can now pin point with your geo map
 
 <h1>Visual Deployment of Operations</h1>
 
@@ -125,7 +125,7 @@ As demonstrated in this visual you just want to make sure you are setting up you
 </p>
 <p>
 
-We are still setting up the basics with our virtual machine, turning it into our Honey Pot, as demonstrated in the visual. What is now being implented is the merging of our logs to our vm, to keep track of our Failed Brute Force attempts in our event logger. 
+We are still setting up the basics with our virtual machine, turning it into our Honey Pot, as demonstrated in the visual. What is now being implented is the merging of our logs to our vm, to keep track of our Failed Brute Force attempts in our event logger.
 
 </p>
 <br />
