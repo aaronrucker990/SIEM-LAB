@@ -45,15 +45,22 @@ Setting up Microsoft Sentinel
 10. In your VM go to the start menu and type in Event Viewer (you can see the failed attempts)
 11. Turn off firewall used cmd “wf.msc” 
 12. Download custom security log exporter https://github.com/joshmadakor1/Sentinel-Lab 
-      a. Paste in Powershell ISE       b. Click on the VM tab to connect your law to your VM
+
+      a. Paste in Powershell ISE
+      
+      b. Click on the VM tab to connect your law to your VM
+      
 Sign up with https://ipgeolocation.io/ to get API to use for code. 
 13. Add custom log to law 
 14. Find logs from desktop and find logs from windows 
 15. Open note pad to paste logs from Event Viewer on your actual desktop 
 16. Then Use C:\ProgramData\failed_rdp.log to put in for collection path for custom log in law then press Enter 
 17. Right click on random log to Exact RAW data
+
       a. Highlight latitude then save exactration of raw data
+      
       b. Highlight longitude then save exactration of raw data (check longitude and latitude to ensure logs are correct. If they are off modify and highlight to train proper algorithm)
+      
       c. Start breaking key names : username, state, destination source and saving exaction
 
 Setting up Geo Map
