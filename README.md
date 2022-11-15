@@ -109,7 +109,7 @@ FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitud
 </p>
 <p>
 
-Once you browse to www.whatismyipaddress.com you can observe the personal IP Addresss and how it shows the current locatation. You also can observe how my location is currently in Dallas, Texas, from my personal computer.
+As demonstrated in this visual you just want to make sure you are setting up your Honey Pot correctly, so it is open for (Brute Force RDP Attacks). 
 
 </p>
 <br />
