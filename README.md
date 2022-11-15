@@ -89,7 +89,7 @@ Setting up Geo Map
 18. In Microsoft Defender for cloud click on Workbooks. 
 19. Edit workbooks and add query. 
 
-20. Type command to find logs
+20. Type command to find logs.
 
        a. 
        
