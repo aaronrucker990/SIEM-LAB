@@ -4,15 +4,14 @@
     
 <h1>Failed RDP to IP Geolocation Information</h1>
 
-This tutorial outlines the implementaion of configuring and observing a VPN, within a Virtual Machine.<br />
+The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- VPN
+- PowerShell: Extract RDP failed logon logs from Windows Event Viewer
 
-<h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
 
