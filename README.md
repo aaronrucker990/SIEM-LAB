@@ -6,8 +6,6 @@
 
 The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.<br />
 
-The script is used in this demo where I setup Microsoft Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to look up the attackers Geolocation information and plot it on an Azure Sentinel Map!<br />
-
 <h2>Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -171,7 +169,7 @@ Now when you remote into your Virtual Machine, please take into account that you
 </p>
 <p>
 
-Once logged in to Remote Desktop use the Public Ip Address from the the Virtual Machine, to remote into your Virutal Machine. 
+In this demo where I setup Microsoft Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. As demonsrated you can see the live attacks (RDP Brute Force) from all around the world. As seen the custom PowerShell script was used to look up the attackers Geolocation information and plot it on an Microsoft Sentinel Map!<br 
 
 </p>
 <br />
