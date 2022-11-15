@@ -23,32 +23,51 @@ Section 1
 Generating your Virtual Machine within Microsoft Azure
 
 1. Create a text file or note pad to keep track of your information.
-2. Browse to  https://whatismyipaddress.com/ and take note of your IP Address
-3. Create a Virtual Machine (You can create a Resource Group when creating your vm)
-4. Create Virtual Machine in a  country (try your country or a country close, so your vm isn’t too slow)
-
-	  a. Log into your VM, you created via Remote Desktop
-	
-	  b. Browse tohttps://whatismyipaddress.com/  and take note of your IP Address
+2. Create a Virtual Machine (You can create a Resource Group when creating your vm)
+3. Create Virtual Machine in a country (try your country or a country close, so your vm isn’t too slow)
+4. When creating vm before you are completely finished, got to networking. a. Find Nic (Network Security Group) then you will create your own firewall. b. Click advanced option create new. Remove the default rule them add your own.
+       c. Destination port for the rule will be *. The priority will be 100. 
 
 Section 2
 
-Create an account with Proton VPN
+Create Lot Analytics Workspace
 
-5. When creating your account with Proton VPN make sure you sign up for the free version.  https://account.protonvpn.com/signup?plan=free&language=en  
-6. Download Proton VPN client within your VM, after creating your account. 
+5. When creating Law make sure to use same RG 
+6. Head over to Microsoft Defender For Cloud to enable the abilty to gather logs 
+      a. Enable in environment settings and disable SQL severs       b. Tap Data collection underneath defender plan where you enabled settings, then click All Events. 
+7. Connect log analytics workspace to vm
+      a. Click on your Law, below it will be an option that says vm       b. Click on the VM tab to connect your law to your VM
 
-	  a. Sign In to your VPN and choose a server in another country (such as Japan)
-	 
-	  b. Browse to https://whatismyipaddress.com/   and take note of your IP Address (Your IP Address is now different)
-7. Try browsing over to Disney, Google or what ever browser you choose to pick. There may be difference in the sites, becuase of the change in your server. For example when browsing over to Disney the lanuguage was in Japanese, due to the server I chose. 
+Setting up Microsoft Sentinel 
 
-Section 3
+8. In Microsoft sentinel connect your law
+9. Remote into VM’s public IP
+10. In your VM go to the start menu and type in Event Viewer (you can see the failed attempts)
+11. Turn off firewall used cmd “wf.msc” 
+12. Download custom security log exporter https://github.com/joshmadakor1/Sentinel-Lab 
+      a. Paste in Powershell ISE       b. Click on the VM tab to connect your law to your VM
+Sign up with https://ipgeolocation.io/ to get API to use for code. 
+13. Add custom log to law 
+14. Find logs from desktop and find logs from windows 
+15. Open note pad to paste logs from Event Viewer on your actual desktop 
+16. Then Use C:\ProgramData\failed_rdp.log to put in for collection path for custom log in law then press Enter 
+17. Right click on random log to Exact RAW data
+      a. Highlight latitude then save exactration of raw data
+      b. Highlight longitude then save exactration of raw data (check longitude and latitude to ensure logs are correct. If they are off modify and highlight to train proper algorithm)
+      c. Start breaking key names : username, state, destination source and saving exaction
 
-Cleaning up your Virtual Environment
+Setting up Geo Map
 
-8. Delete the Virtual Machine along with the Resource Group that was created. 
-9. Please ensure that you delete all of your resources. 
+18. In Microsoft Defender for cloud click on Workbooks 
+19. Edit workbooks and add query 
+20. Type command to find logs
+       a. 
+FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitude_CF, longitude_CF, country_CF, label_CF, destinationhost_CF
+| where destinationhost_CF != "samplehost"
+| where sourcehost_CF !=
+
+19. Once you have your log you can now pin point with your geo map!
+
 
 
 <h1>Observing Visual Configurations</h1>
