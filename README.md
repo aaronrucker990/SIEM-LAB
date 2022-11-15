@@ -146,7 +146,7 @@ We are still setting up the basics with our virtual machine, turning it into our
 </p>
 <p>
     
-Now when you remote into your Virtual Machine, please take into account that you have to remote into the public IP Address. If you notice in the visual you can see how the public IP Address has a circle around it. 
+This is the operation has to be implemented very perice in order to for the SIEM Lab to become a success. When deploying the Powershell script be sure to Sign up with https://ipgeolocation.io/ to get your API Key. You have to have your own API in order for the API to work. 
 
 </p>
 <br />
@@ -167,7 +167,7 @@ Now when you remote into your Virtual Machine, please take into account that you
 </p>
 <p>
 
-In this demo where I setup Microsoft Sentinel (SIEM) and connected it to a live virtual machine, acting as a honey pot. You can see the live attacks (RDP Brute Force) from all around the world, demonstrated in the visual. The custom PowerShell script was used to look up the attackers Geolocation information and plot it on an Microsoft Sentinel Map!
+In this operation where I setup Microsoft Sentinel (SIEM) and connected it to a live virtual machine. You can see the live attacks (RDP Brute Force) from all around the world, demonstrated in the visual. The custom PowerShell script was used to look up the attackers Geolocation information and plot it on a Microsoft Sentinel Map!
 
 </p>
 <br />
